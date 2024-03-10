@@ -12,11 +12,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>JavaScript</h1>
-    <div>
-      <input type="product_name" placeholder="Product" />
-      <input type="product_quantity" placeholder="Quantity" />
-      <button onclick="addProduct()">Add Cart</button>
+    <h1 class="text-center mt-10  ">JavaScript</h1> <hr class="mb-5 w-24 item-center text-center justify-center">
+    <div class="gap-10 item-center text-center justify-center grid">
+      <input id="product_name" type="text" placeholder="Product" class="input input-bordered w-full max-w-xs gap-5"  />
+      <input id="product_quantity" type="text" placeholder="Quantity" class="input input-bordered w-full max-w-xs" />
+      <button onclick="addProduct()" class="btn btn-secondary">Add Cart</button>
+      
     </div>
     <div></div>
     <script src="index.js"></script>
